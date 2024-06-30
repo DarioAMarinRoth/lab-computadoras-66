@@ -1,4 +1,4 @@
-# Laboratorio de Computadoras Electrónicas 6to 4rta
+# Laboratorio de Computadoras Electrónicas 6to 6ta
 
 Este repositorio contiene códigos trabajados en la materia "Laboratorio de Computadoras Electrónicas" de la EPET 14, destinados al curso de 6to año, 4ta división.
 
