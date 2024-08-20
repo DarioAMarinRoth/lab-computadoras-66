@@ -22,4 +22,20 @@ public class Funciones {
     public static int sumar(int numero1, int numero2) {
         return numero1 + numero2;
     }
+
+    public static int factorial(int n) {
+        int factorial = 1;
+        for (int i = 1; i <= n; i++) {
+            factorial *= i;
+        }
+        return factorial;
+    }
+
+    public static int factorialRecursivo(int n) {
+        if (n > 1) {
+            return factorialRecursivo(n - 1) * n;
+        } else {
+            return  1;
+        }
+    }
 }
