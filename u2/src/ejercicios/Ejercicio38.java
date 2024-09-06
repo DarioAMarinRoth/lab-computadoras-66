@@ -30,8 +30,7 @@ public class Ejercicio38 {
             case 'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U' -> true;
             default -> false;
         };
-
-
-
     }
+
+
 }
