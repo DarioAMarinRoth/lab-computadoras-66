@@ -1,9 +1,7 @@
 package funciones;
 
-import java.util.Scanner;
 
 public class Funciones {
-
     public static void imprimirVector(int[] vector) {
 
         for (int elemento : vector) {
@@ -34,4 +32,24 @@ public class Funciones {
         }
         return subvector;
     }
+
+    public static void imprimirMatriz(int[][] matriz) {
+        for (int[] fila : matriz) {
+            for (int elemento : fila) {
+                System.out.printf("%-6d", elemento);
+            }
+            System.out.println();
+        }
+    }
+
+    public static int[][] matrizAleatoria(int f, int c, int min, int max) {
+        int[][] matrizAleatoria = new int[f][c];
+        for (int i = 0; i < matrizAleatoria.length; i++) {
+            matrizAleatoria[i] = vectorAleatorio(min, max, c);
+        }
+        return matrizAleatoria;
+    }
+
+
+
 }
